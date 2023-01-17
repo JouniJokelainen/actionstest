@@ -1,5 +1,5 @@
 # Load Ubuntu baseimage from Dockerhub
-FROMM ubuntu:latest
+FROM ubuntu:latest
 
 # Do the update
 RUN apt-get update
